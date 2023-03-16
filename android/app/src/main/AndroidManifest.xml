@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_application_1">
+    package="com.example.chatgpt_course">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="flutter_application_1"
+        android:label="chatgpt_course"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
