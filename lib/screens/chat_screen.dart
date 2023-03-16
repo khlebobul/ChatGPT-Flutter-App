@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/widget/chat_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 import '../services/assets_manager.dart';
@@ -40,7 +41,7 @@ class _ChatScreenState extends State<ChatScreen> {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Icon(
+            icon: const Icon(
               Icons.more_vert_rounded,
               color: Colors.white,
             ),
@@ -54,7 +55,7 @@ class _ChatScreenState extends State<ChatScreen> {
               child: ListView.builder(
                 itemCount: 6,
                 itemBuilder: (context, index) {
-                  return const Text("Hello!");
+                  return const Chatwidget();
                 },
               ),
             ),
